@@ -1,0 +1,24 @@
+# Critter Simulation
+
+## Overview
+The Critter Simulation project is a Java-based application developed as part of the Master in Information Technology program's course in Software Design and Development. This project simulates an ecosystem with various animal-like entities, known as 'critters', each with unique behaviors and interaction patterns within a virtual grid.
+
+## Features
+- Multiple critter types including Bears, Tigers, WhiteTigers, Giants, and NinjaCats.
+- Behaviors such as movement, interaction, infection, and text-based communication implemented for each critter type.
+- A graphical user interface for real-time observation of the critter behaviors.
+- Demonstrates concepts of object-oriented programming, including inheritance, polymorphism, and encapsulation.
+
+## Getting Started
+
+### Prerequisites
+- Java Development Kit (JDK), version 17 or higher.
+- Git installed on your machine.
+
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ashrafhalib/animal_kingdom.git
+cd animal_kingdom
+javac -d bin src/*.java
+java -cp bin CritterMain
